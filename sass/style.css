@@ -482,4 +482,29 @@ nav {
   font-size: xx-large;
   font-family: 'Roboto', sans-serif;
 }
+
+.input-sexo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 30%;
+}
+
+.btn-enviar {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 50%;
+  margin-top: 1rem;
+}
+
+.btn-borrar {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 50%;
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=style.css.map */

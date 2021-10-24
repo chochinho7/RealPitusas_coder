@@ -49,19 +49,21 @@
           <legend>Hazte socio!</legend>
           <div class="suscripcion-socio__item sexo-form"> 
             <label for="sexo">Sexo:</label>
+            <div class="input-sexo">
             <input type="radio" name="sexo" id="sexo" value="Maasculino">Masculino
+          </div>
+          <div class="input-sexo">
             <input type="radio" name="sexo" id="sexo" value="Femenino">Femenino
+          </div>
           </div>
           <div class="suscripcion-socio__item">
             <label for="infoNombre">Nombre</label>   
             <input type="text"  id="infoNombre" name="infoNombre">
           </div>
-          <br>
           <div class="suscripcion-socio__item">
               <label for="infoApellido">Apellido</label>   
               <input type="text"  name="infoApellido" id="infoApellido">
           </div>
-          <br>
           <div class="suscripcion-socio__item">
               <label for="e-mail">Correo electronico</label>   
               <input type="email"  name="e-mail">
@@ -79,8 +81,8 @@
             </select>
           </div>
           <div class="suscripcion-socio__item">
-            <input type="reset" name="Limpiar" id="Limpiar" value="Borrar todo">
-            <input type="submit" value="Enviar">
+            <input class="btn-borrar" type="reset" name="Limpiar" id="Limpiar" value="Borrar todo">
+            <input class="btn-enviar" type="submit" value="Enviar">
           </div>        
         </fieldset>
       </form>

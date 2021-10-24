@@ -336,3 +336,18 @@ nav{
     }
     
 }
+.input-sexo{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.btn-enviar{
+    align-self: center;
+    width: 50%;
+    margin-top: 1rem;
+}
+.btn-borrar{
+    align-self: center;
+    width: 50%;
+    margin-top: 1rem;
+}
