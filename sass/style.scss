@@ -1,0 +1,338 @@
+@import url("./tablas.css");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import "_variables.scss";
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-image: url(https://media.contentapi.ea.com/content/dam/ea/fifa/fifa-21/features/common/navigation/fifa21-features-nav-section-hp-xl.png.adapt.320w.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+}
+header{
+    background-image: linear-gradient(175deg, #834b59 0, #7e4359 10%, #783b59 20%, #703259 30%, #662859 40%, #591f59 50%, #4a175a 60%, #38135b 70%, #1f125d 80%, #00125f 90%, #001461 100%);
+    width: 100%;
+}
+h1{
+    text-align: left;
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    text-shadow: 2px 2px 4px black;
+    user-select: none;
+    margin-left: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+ul, li{
+    display: inline-block;
+}
+ul,li{
+    color: white;
+    text-decoration: none;
+}
+nav ul li{
+    position: relative;
+    width: 15vw;
+}
+.contenedor-lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-contenedor li{
+    text-align: center;
+}
+.contenedor-navbar,
+.contenedor-navbar li{
+    background-color: transparent;
+    transition: 200ms ease-in all;
+}
+.contenedor-navbar > li{
+    text-align: center;
+}
+a {
+    text-decoration: none; 
+}
+a:hover{
+    text-decoration: none;
+}
+.boton-nav {
+    color: white;
+    text-decoration: none;
+}
+li:hover{
+    background-color: #A1A1A1;
+    cursor: pointer;
+}
+.contenedor-lista ul li:hover{
+    background-color: #38135bb0;
+    transform: scale(120%);
+
+}
+.imagen{
+    width: 100vw;
+}
+article{
+    margin-block: 100px;
+    font-family: 'Urbanist', sans-serif;
+}
+.imagen-articulo {
+    width: 40%;
+    margin: 10%;
+}
+.noticias img:hover{
+    transform: scale(1.1);
+}
+.pie{
+    background-color: #a1a1a1dc;
+}
+.pie li{
+    display: inline-grid;
+    grid-template-rows: 25%;
+    margin: 20px;
+}
+.titulo-real-pitusas {
+    height: 12vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titulo-seccion{
+    color: mediumslateblue;
+}
+nav{
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+}
+.boton-navbar{
+    background-color: #38135b;
+    color: white;
+}
+.boton-navbar span{
+    color: white;
+}
+.titulo-articulo{
+    background-color: rgba(128, 128, 128, 0.664);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px black;
+    margin: 10%;
+
+}
+.texto-articulo{
+    background-color: whitesmoke;
+    opacity: 0.8;
+    text-align: left;
+    line-height: 1.5;
+    margin: 10%;
+}
+.logos-jugadores img{
+    display: inline-grid;
+    grid-template-columns: 5%;
+    width: 25%;
+    margin: 5vw;
+}
+.contenedor-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: auto;
+}
+.noticias{
+    margin: 20vw;
+    text-align: center;
+    h2{
+        background-color: rgba(128, 128, 128, 0.753);
+        color: rgb(255, 255, 255);
+        width: 100%;
+    }
+    
+    p{
+        @include texto-articulo (rgba(245, 245, 245, 0.795), auto, left, 10px)
+        // background-color: rgba(245, 245, 245, 0.795);
+        // padding: auto;
+        // text-align: left;
+        // border-radius: 10px;
+    }
+    img{
+        transition: 200ms ease-in-out;
+    }
+}
+ .formulario-contacto{
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.288);
+    border-radius: 10px;
+    
+}
+.seccion-contacto{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40%;
+}
+.borde-form{
+    margin: 3vw;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    width: 90%;
+    color: aliceblue;
+}
+#imagenes-articulos{
+    width: 100%;
+}
+.socio-img{
+    width: 60%; 
+    height: auto;
+}
+.articulo-socio{
+    display: flex;
+    justify-content: center;
+}
+.icono-redes{
+    margin: 30px;
+    width: 10%;
+    transition: 450ms transform ease-in-out;
+}
+.icono-redes:hover {
+    transform: rotate(360deg);
+}
+.carousel-control-next{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+}
+.carousel-control-prev{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+}
+.container p{
+    font-weight: 700;
+    font-size: x-large;
+}
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 20px;
+    }
+    form{
+        margin: 6vw;
+        font-size: 11px;
+    }
+    nav{
+        font-size: 10px;
+    }
+    footer{
+        font-size: 8px;
+    }
+}
+.lista-club{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-around;
+
+    .lista-club__tarjeta{
+       display: flex;
+       flex-direction: column;
+        width: 300px;
+        align-items: center;
+        padding: 15px;
+        margin-top: 100px;
+        .lista-club__img{
+            width: auto;
+            height: 300px;
+        }
+        .lista-club__texto{
+            @include texto-articulo (rgba(245, 245, 245, 0.795), auto, left, 10px)
+            // border-radius: 10px;
+            // background-color: rgba(245, 245, 245, 0.795);
+        }
+    }
+}
+.suscripcion-socio{
+    display: flex;
+    justify-content: center;
+    background-image: none;
+    color: white;
+    width: 100%;
+    .suscripcion-socio__fieldset{
+        display: flex;
+        flex-direction: column;
+        width: 60vw;
+        background-color: #a1a1a1bd;
+        border-radius: 10px;
+        align-items: center;
+        padding: 2rem 3rem;
+        height: 700px;
+        justify-content: space-around;
+        .suscripcion-socio__item{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+
+        }
+        .sexo-form{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+}
+.icono-twitch{
+    margin-bottom: 5vh;
+    .icono-twitch__img{
+        align-items: center;
+        margin: 80px 100px;
+        width: 30vw;
+        transition: 450ms transform ease-in-out;
+
+    }
+    .icono-twitch__img:hover{
+        transform: rotate(360deg);
+
+    }
+    .icono-twitch__texto{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+    }
+}
+.plantel-seccion{
+    background-color: rgba(245, 245, 245, 0.767);
+   
+    .plantel-seccion__texto{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 29px;
+        width: 70vw;
+        margin: 15vw;
+    }
+}
+.redes-sociales{
+    margin-top: 2vh;
+    background-color: rgba(168, 83, 168, 0.822);
+    
+    .redes-sociales__texto{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,;
+        color: white;
+        font-weight: 800;
+        font-size: xx-large;
+        font-family: 'Roboto', sans-serif;
+
+    }
+    
+}

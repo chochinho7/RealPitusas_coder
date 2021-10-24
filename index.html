@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <title>Real Pitusas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="./sass/style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+      </style>
+</head>
+<body>  
+    <header class="fixed-top">
+            <br>
+            <div class="container-fluid"><a href="index.html"><h1>Real Pitusas</h1></a></div>
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-contenedor">
+              <div class="container-fluid">
+                <div></div>
+                <button class="navbar-toggler boton-navbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse contenedor-lista" id="navbarNav">
+                  <ul class="navbar-nav text-white text-start d-flex justify-content-start">
+                    <li class="nav-item">
+                      <a class="nav-link active text-white" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="./secciones/club.html">Club</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="./secciones/plantel.html">Plantel</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="./secciones/socio.html">Socio</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+    </header>
+    <div>
+        <section class="container-fluid">
+            <article class="noticias row"> <!--encapsulado en un articulo, porque en un futuro, dentro de esta misma seccion, podrian haber otros articulos-->
+                <img src="imagenes/futbolito1.png" class="rounded" id="imagenes-articulos"/>
+                <h2 class="lead">Te estamos buscando!</h2> 
+                <p>Contamos con personal calificado para recluting, entrenamienmto piscomotriz, fisioterapeutas y un staff preparado para mantenimiento y optimizacion de las herramientas utilizaddas para cada partido.</p>
+            </article>
+         </section>
+         <section class="container">
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./Imagenes/esports psg.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/mbappe.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./Imagenes/home fifa.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden"></span>
+                </button>
+              </div> 
+              <p>Que esperas para unirte a nosotros?</p>
+            <br><br><br><br>        
+          </section>
+    </div>
+    <div class="tabla-posiciones">
+      <h2 class="tabla-posiciones__titulo">Tabla de Posiciones Clubes Pro</h2>
+      <table class="table tabla-posiciones__tabla">
+        <thead class="tabla-posiciones__encabezado">
+          <th>Posicion</th>
+          <th>Equipo</th>
+          <th>Puntos</th>
+          <th>PJ</th>
+          <th>G</th>
+          <th>E</th>
+          <th>P</th>
+          <th>Dif</th>
+        </thead>
+        <tbody class="tabla-posiciones__cuerpo">
+          <tr>
+            <td>1</td>
+            <td>Real Pitusas FC</td>
+            <td>27</td>
+            <td>9</td>
+            <td>9</td>
+            <td>0</td>
+            <td>0</td>
+            <td>+31</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Pepitos FC</td>
+            <td>21</td>
+            <td>9</td>
+            <td>7</td>
+            <td>0</td>
+            <td>2</td>
+            <td>+15</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Macucas Team</td>
+            <td>21</td>
+            <td>9</td>
+            <td>7</td>
+            <td>0</td>
+            <td>2</td>
+            <td>+8</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Real Bañil</td>
+            <td>17</td>
+            <td>8</td>
+            <td>5</td>
+            <td>2</td>
+            <td>1</td>
+            <td>+10</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>C.A. Castolo</td>
+            <td>17</td>
+            <td>8</td>
+            <td>5</td>
+            <td>2</td>
+            <td>1</td>
+            <td>+5</td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+        <footer class="pie">
+            <ul>
+                <li><a class="boton-nav" a href="/secciones/contacto.html">Contacto</a></li>
+                <a href="https://www.iubenda.com/privacy-policy/69649086" class="boton-nav" title="Política de Privacidad ">Terminos condiciones y Privacidad</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+                <li>Pagina Desarrollada por Augusto Mariutti©</li>
+            </ul>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+</body>
+</html>

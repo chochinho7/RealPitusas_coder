@@ -1,0 +1,6 @@
+@mixin texto-articulo ($background, $padding, $text-align, $border-radius) {
+        background-color: $background;
+        padding: $padding;
+        text-align: $text-align;
+        border-radius: $border-radius;
+}

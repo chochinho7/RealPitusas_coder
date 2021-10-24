@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="../sass/style.css">
+    
+</head>
+<body>
+    <header>
+        <br>
+        <a href="../index.html"><h1>Real Pitusas</h1></a>
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-contenedor">
+              <div class="container-fluid">
+                <div></div>
+                <button class="navbar-toggler boton-navbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse contenedor-lista" id="navbarNav">
+                  <ul class="navbar-nav text-white text-start d-flex justify-content-start">
+                    <li class="nav-item">
+                      <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="./club.html">Club</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="./plantel.html">Plantel</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="./socio.html">Socio</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+    </header>
+    <section>
+        <article class="articulo-socio">
+            <img  class="socio-img" src="https://www.latercera.com/resizer/kHGExJgEEAc_otWpS9BvcludOY0=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/RVM5TORPRNGFDKFTDQWD5SCERU.jpg" alt="">
+        </article>
+    </section>
+    <div class="suscripcion-socio">
+      <form  action="" method="get" class="suscripcion-socio__formulario">
+        <fieldset class="suscripcion-socio__fieldset">
+          <legend>Hazte socio!</legend>
+          <div class="suscripcion-socio__item sexo-form"> 
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="sexo" id="sexo" value="Maasculino">Masculino
+            <input type="radio" name="sexo" id="sexo" value="Femenino">Femenino
+          </div>
+          <div class="suscripcion-socio__item">
+            <label for="infoNombre">Nombre</label>   
+            <input type="text"  id="infoNombre" name="infoNombre">
+          </div>
+          <br>
+          <div class="suscripcion-socio__item">
+              <label for="infoApellido">Apellido</label>   
+              <input type="text"  name="infoApellido" id="infoApellido">
+          </div>
+          <br>
+          <div class="suscripcion-socio__item">
+              <label for="e-mail">Correo electronico</label>   
+              <input type="email"  name="e-mail">
+          </div>
+          <div class="suscripcion-socio__item">
+            <label for="InfoDocumento">Numero de documento</label>
+            <input type="text"  name="InfoDocumento" id="InfoDocumento">
+          </div>
+          <div class="suscripcion-socio__item">
+            <label for="Suscripcion">Elija plan de socio</label>
+            <select name="Suscripcion" id="plan">
+              <option value="Basico">Basico</option>
+              <option value="Oro">Oro</option>
+              <option value="Platino">Platino</option>
+            </select>
+          </div>
+          <div class="suscripcion-socio__item">
+            <input type="reset" name="Limpiar" id="Limpiar" value="Borrar todo">
+            <input type="submit" value="Enviar">
+          </div>        
+        </fieldset>
+      </form>
+    </div>
+    <div class="icono-twitch">
+      <a href="https://www.twitch.tv/chochinho7"><img src="../Imagenes/twitch icon.png" alt="icono twitch" class="icono-twitch__img"></a>
+      <p class="icono-twitch__texto">Los socios tendran una suscripcion al canal oficial de regalo!</p>
+    </div>
+
+    <footer class="pie">
+        <ul>
+          <a href="https://www.iubenda.com/privacy-policy/69649086" class="boton-nav" title="Política de Privacidad ">Terminos condiciones y Privacidad</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+          <li><a class="boton-nav" a href="contacto.html">Contacto</a></li>
+            <li>Pagina Desarrollada por Augusto Mariutti©</li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

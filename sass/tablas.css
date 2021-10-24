@@ -1,0 +1,13 @@
+.tabla-posiciones__titulo{
+            color: #000000;
+            background-color: #ffffff93;   
+}    
+.tabla-posiciones__encabezado{
+        background-color: rgb(0, 0, 0);
+        color: white;
+        width: 100vw;
+}
+.tabla-posiciones__cuerpo{
+        background-color: rgba(255, 255, 255, 0.788);
+        border-color: rgb(204, 204, 204);
+}
