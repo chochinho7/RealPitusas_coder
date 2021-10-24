@@ -255,7 +255,7 @@ nav{
             height: 300px;
         }
         .lista-club__texto{
-            @include texto-articulo (rgba(245, 245, 245, 0.795), auto, left, 10px)
+            @include texto-articulo (rgba(245, 245, 245, 0.795), .5rem, left, 10px)
             // border-radius: 10px;
             // background-color: rgba(245, 245, 245, 0.795);
         }

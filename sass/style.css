@@ -369,7 +369,7 @@ nav {
 
 .lista-club .lista-club__tarjeta .lista-club__texto {
   background-color: rgba(245, 245, 245, 0.795);
-  padding: auto;
+  padding: 0.5rem;
   text-align: left;
   border-radius: 10px;
 }
