@@ -1,13 +1,29 @@
+.tabla-posiciones{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        font-size: 20px;
+        margin-bottom: 2rem;
+}
 .tabla-posiciones__titulo{
-            color: #000000;
-            background-color: #ffffff93;   
+        width: 100%;
+        color: #000000;
+        background-color: #ffffff93;   
 }    
 .tabla-posiciones__encabezado{
         background-color: rgb(0, 0, 0);
         color: white;
-        width: 100vw;
+        width: 100%;
 }
 .tabla-posiciones__cuerpo{
         background-color: rgba(255, 255, 255, 0.788);
-        border-color: rgb(204, 204, 204);
+}
+
+@media screen and (max-width: 600px) {
+
+        .tabla-posiciones{
+        font-size: 12px;
+        
+        }
+        
 }
